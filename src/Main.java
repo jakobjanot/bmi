@@ -1,5 +1,5 @@
 void main() {
-    double bmiAlex = calculateBmi(82.0, 1.79);
+    double bmiAlex = calculateBmi(80.0, 1.79);
     double bmiBodil = calculateBmi(76, 1.90);
     double bmiCharles = calculateBmi(68, 1.70);
     double bmiDorthe = calculateBmi(55, 1.65);
