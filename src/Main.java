@@ -5,7 +5,7 @@ void main() {
 
     IO.println("Alex, dit BMI er " + bmiAlex + ". Du er " + classifyBmi(bmiAlex));
     IO.println("Bodil, dit BMI er " + bmiBodil + ". Du er " + classifyBmi(bmiBodil));
-    IO.println("Alma dit bmi er: " + bmiAlma + classifyBmi(bmiAlma));
+    IO.println("Alma dit bmi er:  " + bmiAlma + classifyBmi(bmiAlma));
 }
 
 double calculateBmi(double weight, double height) {
