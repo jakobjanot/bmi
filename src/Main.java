@@ -1,11 +1,11 @@
 void main() {
     double bmiAlex = calculateBmi(82.0, 1.79);
     double bmiBodil = calculateBmi(76, 1.90);
-    double bmiAlma = calculateBmi(58, 1.68);
+    double bmiCharles = calculateBmi(68, 170);
 
     IO.println("Alex, dit BMI er " + bmiAlex + ". Du er " + classifyBmi(bmiAlex));
     IO.println("Bodil, dit BMI er " + bmiBodil + ". Du er " + classifyBmi(bmiBodil));
-    IO.println("Alma dit bmi er:  " + bmiAlma + classifyBmi(bmiAlma));
+    IO.println("Charles dit bmi er:  " + bmiCharles + classifyBmi(bmiCharles));
 }
 
 double calculateBmi(double weight, double height) {
